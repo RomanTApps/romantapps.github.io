@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="RomanT Apps icon">
+  <rect width="64" height="64" rx="16" fill="#4338CA"/>
+  <rect width="64" height="64" rx="16" fill="url(#g)" fill-opacity="0.35"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BBB5FF"/>
+      <stop offset="1" stop-color="#2D1FA3"/>
+    </linearGradient>
+  </defs>
+  <path d="M19 46V21.5C19 20.1193 20.1193 19 21.5 19H32C36.4183 19 40 22.5817 40 27C40 30.4732 37.7938 33.4307 34.6852 34.5322L41 46H35L29.5 35.9H24.5V46H19ZM24.5 30.9H31.4C33.6644 30.9 35.5 29.0644 35.5 26.8C35.5 24.5356 33.6644 22.7 31.4 22.7H24.5V30.9Z" fill="white"/>
+</svg>

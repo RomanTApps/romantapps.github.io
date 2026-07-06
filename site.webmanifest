@@ -1,0 +1,19 @@
+{
+  "name": "RomanT Apps",
+  "short_name": "RomanT",
+  "description": "Free, offline self-development reading apps — negotiation, charisma, psychology, health and money skills in 13 languages.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDF8F2",
+  "theme_color": "#4338CA",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

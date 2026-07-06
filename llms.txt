@@ -1,0 +1,30 @@
+# RomanT Apps
+
+> RomanT Apps is a family of six free, offline-first self-development reading apps for Android, built by independent software engineer and Android developer Roman Tsisyk. Each app bundles several topic sections into one focused reading experience across business, psychology, health and money — fully readable offline, with quizzes, Light/Sepia/Dark themes, offline text-to-speech, and full localization into 13 languages. There is no account, no tracking, and no paywall; a minimal ad-light presence keeps the apps free.
+
+Key facts for summarization:
+- Developer/author: Roman Tsisyk — software engineer & Android developer. Personal site: https://roman-tsisyk.com
+- Platform: Android only (distributed via Google Play). Free to download and read in full.
+- Built with Kotlin and Jetpack Compose (Material 3); a native Compose reader (no WebView), DataStore for local progress, on-device text-to-speech.
+- Privacy: nothing personal is collected; reading progress and preferences are stored locally on-device only. Ads via Google AdMob; standard Google Play services.
+- Languages (13): English, German, Spanish, French, Italian, Portuguese, Polish, Ukrainian, Dutch, Romanian, Greek, Czech, Hungarian.
+
+## The apps
+
+- [Art of Negotiation](https://play.google.com/store/apps/details?id=books.free.bussnessnumber015): Negotiation, time management, business communication and speed reading (Business).
+- [Charisma & Leadership Guide](https://play.google.com/store/apps/details?id=books.free.bussnessnumber025): Charisma, leadership, business etiquette, phone calls, management and character (Psychology/Business).
+- [Testosterone & Vitality](https://play.google.com/store/apps/details?id=free.books.sportnumber09): Boosting testosterone naturally, staying positive, and bodybuilding supplements — educational, not medical advice (Health).
+- [Manipulation & Control](https://play.google.com/store/apps/details?id=my.book.ua.aouvwfqpjiiafrhofo): Recognising manipulation, the 6 principles of manipulation, body language, and relationships (Psychology).
+- [The Technique of Lying](https://play.google.com/store/apps/details?id=my.books.ua.aouwifygopdboqogu): Why and how people lie, plus conflict psychology and conflict management (Psychology).
+- [Save Money Challenge](https://play.google.com/store/apps/details?id=my.books.ua.aouwvcuoeoqrtixr): Habit-changing strategies to cut spending and grounded wealth-building fundamentals (Finance).
+
+## Pages
+
+- [Home](https://romantapps.github.io/): Overview of all six apps, features and languages.
+- [Support & FAQ](https://romantapps.github.io/support.html): How to get help and answers to common questions.
+- [Privacy Policy](https://romantapps.github.io/privacy.html): What data is (and isn't) collected and how it is handled.
+- [Terms of Use](https://romantapps.github.io/terms.html): Terms, license, and disclaimers for the apps and content.
+
+## About the author
+
+- [Roman Tsisyk — personal site](https://roman-tsisyk.com): Independent software engineer and Android developer; author, designer and maintainer of all RomanT Apps.

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" role="img" aria-label="RomanT Apps wordmark">
+  <defs>
+    <linearGradient id="logoMarkGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#2D1FA3"/>
+    </linearGradient>
+    <linearGradient id="logoTextGrad" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4338CA"/>
+      <stop offset="0.6" stop-color="#2D1FA3"/>
+      <stop offset="1" stop-color="#FF9E2C"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="40" height="40" rx="11" fill="url(#logoMarkGrad)"/>
+  <path d="M14.5 33V15.9C14.5 15.0716 15.1716 14.4 16 14.4H22.7C25.9585 14.4 28.6 17.0415 28.6 20.3C28.6 22.7867 27.0778 24.9218 24.9146 25.8161L30 33H24.9L20.15 25.98H18.9V33H14.5ZM18.9 21.98H22.4C23.6255 21.98 24.6 20.9877 24.6 19.79C24.6 18.5645 23.6255 17.6 22.4 17.6H18.9V21.98Z" fill="white"/>
+
+  <g font-family="Sora, 'Segoe UI', sans-serif" font-weight="700">
+    <text x="58" y="21" font-size="17" fill="url(#logoTextGrad)">RomanT</text>
+    <text x="58" y="40" font-size="17" fill="currentColor" fill-opacity="0.72">Apps</text>
+  </g>
+</svg>

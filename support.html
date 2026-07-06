@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('romantapps-theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Roman Tsisyk">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="author" href="https://roman-tsisyk.com">
+<link rel="me" href="https://roman-tsisyk.com">
+<title>Support &amp; FAQ — RomanT Apps</title>
+<meta name="description" content="Get help with any RomanT app: how to contact us, common questions about offline reading, languages, themes, read-aloud, and reporting a bug.">
+<link rel="canonical" href="https://romantapps.github.io/support.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RomanT Apps">
+<meta property="og:title" content="Support &amp; FAQ — RomanT Apps">
+<meta property="og:description" content="Get help with any RomanT app: how to contact us, common questions about offline reading, languages, themes, read-aloud, and reporting a bug.">
+<meta property="og:url" content="https://romantapps.github.io/support.html">
+<meta property="og:image" content="https://romantapps.github.io/assets/img/og-cover.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Support &amp; FAQ — RomanT Apps">
+<meta name="twitter:description" content="Get help with any RomanT app: how to contact us, common questions about offline reading, languages, themes, read-aloud, and reporting a bug.">
+<meta name="twitter:image" content="https://romantapps.github.io/assets/img/og-cover.svg">
+
+<!-- Icons / theme -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#4338CA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14100C" media="(prefers-color-scheme: dark)">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://romantapps.github.io/" },
+    { "@type": "ListItem", "position": 2, "name": "Support", "item": "https://romantapps.github.io/support.html" }
+  ]
+}
+</script>
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are the apps really free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. All six RomanT apps are free to download and free to read, in full. A minimal, ad-light presence is what keeps them free — there's no paywall on content or chapters." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do they work offline?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, 100%. Once an app is installed, every book, chapter, and quiz is available without an internet connection. You only need connectivity for the occasional ad and the in-app Google Play review prompt." }
+    },
+    {
+      "@type": "Question",
+      "name": "What languages are supported?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Every app is fully localized into 13 languages: English, German, Spanish, French, Italian, Portuguese, Polish, Ukrainian, Dutch, Romanian, Greek, Czech, and Hungarian. Content, quizzes, and the interface are all translated, and the app follows your device language automatically." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I change the theme or font size, or use read-aloud?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Open any chapter and use the reader settings icon to switch between Light, Sepia, and Dark themes and adjust font size. Use the Listen or speaker icon to have the chapter read aloud via offline text-to-speech." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is my data handled?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Nothing personal is collected. Your reading progress, quiz results, and preferences stay on your device. Full details are in the Privacy Policy." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I report a bug or request a translation fix?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Use the developer contact link on the relevant app's Google Play listing, or reach out via roman-tsisyk.com. Please mention the app name, your device and Android version, and what happened — it makes fixes much faster." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- HEADER START -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand" aria-label="RomanT Apps home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="11" fill="#4338CA"/>
+        <path d="M12 28V13.5C12 12.6716 12.6716 12 13.5 12H20C22.7614 12 25 14.2386 25 17C25 19.099 23.6982 20.8926 21.86 21.6127L26 28H22.4L18.7 22.1H15.5V28H12ZM15.5 19.1H19.7C21.0255 19.1 22.1 18.0255 22.1 16.7C22.1 15.3745 21.0255 14.3 19.7 14.3H15.5V19.1Z" fill="white"/>
+      </svg>
+      <span>RomanT Apps</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#apps">Apps</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#languages">Languages</a>
+      <a href="index.html#developer">Developer</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-sm" href="https://play.google.com/store/apps/details?id=books.free.bussnessnumber025" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3.5c0-.4.2-.7.5-.9l10 8.4-10 8.4c-.3-.2-.5-.5-.5-.9v-15zm12.5 8.9L5.9 21l9.6-6.6zM5.9 3l9.6 6.6-9.6 2.1V3zm10.9 7.4l3.1 1.8c.7.4.7 1.4 0 1.8l-3.1 1.8-2.3-2.7 2.3-2.7z"/></svg>
+        <span>Get on Google Play</span>
+      </a>
+      <button class="btn-icon theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="icon-sun" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+        </span>
+        <span class="icon-moon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.7 14.6A8.6 8.6 0 019.4 3.3 9.4 9.4 0 1021 15.9a.5.5 0 00-.3-.3.5.5 0 00-.4 0z"/></svg>
+        </span>
+      </button>
+      <button class="btn-icon nav-toggle" id="navToggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="nav-toggle-box"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-menu wrap" id="mobileMenu" aria-label="Mobile">
+    <a href="index.html#apps">Apps</a>
+    <a href="index.html#features">Features</a>
+    <a href="index.html#languages">Languages</a>
+    <a href="index.html#developer">Developer</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+<!-- HEADER END -->
+
+<main id="main">
+  <section class="prose-page">
+    <div class="wrap">
+      <div class="prose">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span>Support</span>
+        </nav>
+
+        <h1>Support &amp; Contact</h1>
+        <p class="updated">Here to help — usually within a day or two.</p>
+
+        <p>Stuck on something, found a bug, or just want to say hi? We'd genuinely like to hear
+        from you. Every app in the RomanT family is built and maintained by one developer, so
+        replies are personal — not a support queue.</p>
+
+        <div class="contact-card">
+          <h2>How to get help</h2>
+          <p>The fastest way to reach us is through the developer contact link on the Google
+          Play listing of the app you're using — open the app's page on Google Play, scroll to
+          the developer section, and use the "Send an email" / contact option there. You can also
+          get in touch through Roman Tsisyk's personal site:</p>
+          <a class="btn btn-secondary btn-sm" href="https://roman-tsisyk.com" target="_blank" rel="noopener">
+            <span>Visit roman-tsisyk.com</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
+          </a>
+        </div>
+
+        <h2>Frequently asked questions</h2>
+
+        <div class="faq-item">
+          <h3>Are the apps really free?</h3>
+          <p>Yes. All six RomanT apps are free to download and free to read, in full. A minimal,
+          ad-light presence is what keeps them free — there's no paywall on content or chapters.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do they work offline?</h3>
+          <p>Yes, 100%. Once an app is installed, every book, chapter, and quiz is available
+          without an internet connection. You only need connectivity for the (occasional) ad
+          and for the in-app Google Play review prompt.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What languages are supported?</h3>
+          <p>Every app is fully localized into 13 languages: English, German, Spanish, French,
+          Italian, Portuguese, Polish, Ukrainian, Dutch, Romanian, Greek, Czech, and Hungarian.
+          Content, quizzes, and the app interface are all translated — the app follows your
+          device's language automatically, or you can change it in the app's settings.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I change the theme or font size, or use read-aloud?</h3>
+          <p>Open any chapter and look for the reader settings icon (usually top-right) to
+          switch between Light, Sepia, and Dark themes and adjust font size. Look for a "Listen"
+          or speaker icon to have the chapter read aloud via offline text-to-speech.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How is my data handled?</h3>
+          <p>Nothing personal is collected. Your reading progress, quiz results, and preferences
+          stay on your device. Full details are in our <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I report a bug or request a translation fix?</h3>
+          <p>Use the developer contact link on the relevant app's Google Play listing, or reach
+          out via <a href="https://roman-tsisyk.com" target="_blank" rel="noopener">roman-tsisyk.com</a>.
+          Please mention the app name, your device/Android version, and what happened (or the
+          text you spotted an issue with) — it makes fixes much faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER START -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="RomanT Apps home">
+          <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="40" height="40" rx="11" fill="#4338CA"/>
+            <path d="M12 28V13.5C12 12.6716 12.6716 12 13.5 12H20C22.7614 12 25 14.2386 25 17C25 19.099 23.6982 20.8926 21.86 21.6127L26 28H22.4L18.7 22.1H15.5V28H12ZM15.5 19.1H19.7C21.0255 19.1 22.1 18.0255 22.1 16.7C22.1 15.3745 21.0255 14.3 19.7 14.3H15.5V19.1Z" fill="white"/>
+          </svg>
+          <span>RomanT Apps</span>
+        </a>
+        <p>Free, offline self-development reading apps for Android — negotiation, charisma, psychology, health and money, in 13 languages.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Apps</h4>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=books.free.bussnessnumber015" target="_blank" rel="noopener">Art of Negotiation</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=books.free.bussnessnumber025" target="_blank" rel="noopener">Charisma &amp; Leadership Guide</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=free.books.sportnumber09" target="_blank" rel="noopener">Testosterone &amp; Vitality</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=my.book.ua.aouvwfqpjiiafrhofo" target="_blank" rel="noopener">Manipulation &amp; Control</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=my.books.ua.aouwifygopdboqogu" target="_blank" rel="noopener">The Technique of Lying</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=my.books.ua.aouwvcuoeoqrtixr" target="_blank" rel="noopener">Save Money Challenge</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Developer</h4>
+        <ul>
+          <li><a href="https://roman-tsisyk.com" target="_blank" rel="noopener me">roman-tsisyk.com</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=books.free.bussnessnumber025" target="_blank" rel="noopener">More apps on Google Play</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Roman Tsisyk. Designed &amp; built by <a href="https://roman-tsisyk.com" target="_blank" rel="noopener" style="text-decoration:underline;">Roman Tsisyk</a>.</span>
+      <span>Google Play and the Google Play logo are trademarks of Google LLC.</span>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

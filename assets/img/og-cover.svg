@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="RomanT Apps — Free offline self-development apps">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A0F6E"/>
+      <stop offset="0.55" stop-color="#2D1FA3"/>
+      <stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+    <radialGradient id="glowAmber" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 90) scale(420)">
+      <stop offset="0" stop-color="#FFB868" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFB868" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowIndigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 560) scale(460)">
+      <stop offset="0" stop-color="#BBB5FF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#BBB5FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markGrad" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#glowAmber)"/>
+  <rect width="1200" height="630" fill="url(#glowIndigo)"/>
+
+  <!-- app mark tiles, decorative -->
+  <g opacity="0.9">
+    <rect x="860" y="96" width="96" height="96" rx="24" fill="url(#markGrad)"/>
+    <text x="908" y="158" font-family="Sora, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF" text-anchor="middle">N</text>
+
+    <rect x="972" y="150" width="96" height="96" rx="24" fill="url(#markGrad)"/>
+    <text x="1020" y="212" font-family="Sora, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF" text-anchor="middle">C</text>
+
+    <rect x="948" y="270" width="96" height="96" rx="24" fill="url(#markGrad)"/>
+    <text x="996" y="332" font-family="Sora, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF" text-anchor="middle">T</text>
+
+    <rect x="1044" y="60" width="80" height="80" rx="20" fill="url(#markGrad)"/>
+    <text x="1084" y="112" font-family="Sora, sans-serif" font-weight="700" font-size="36" fill="#FFFFFF" text-anchor="middle">M</text>
+
+    <rect x="850" y="220" width="80" height="80" rx="20" fill="url(#markGrad)"/>
+    <text x="890" y="272" font-family="Sora, sans-serif" font-weight="700" font-size="36" fill="#FFFFFF" text-anchor="middle">L</text>
+
+    <rect x="1000" y="380" width="80" height="80" rx="20" fill="url(#markGrad)"/>
+    <text x="1040" y="432" font-family="Sora, sans-serif" font-weight="700" font-size="36" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+
+  <!-- eyebrow -->
+  <g transform="translate(90,110)">
+    <rect width="336" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.14"/>
+    <circle cx="26" cy="22" r="6" fill="#FF9E2C"/>
+    <text x="44" y="29" font-family="Inter, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF">6 free apps &#183; 13 languages</text>
+  </g>
+
+  <!-- headline -->
+  <text x="90" y="240" font-family="Sora, sans-serif" font-weight="700" font-size="64" fill="#FFFFFF">Free offline</text>
+  <text x="90" y="312" font-family="Sora, sans-serif" font-weight="700" font-size="64" fill="#FFFFFF">self-development apps</text>
+
+  <text x="90" y="368" font-family="Inter, sans-serif" font-weight="500" font-size="24" fill="#E0DEFF">Negotiation &#183; Charisma &#183; Psychology &#183; Health &#183; Money</text>
+
+  <!-- bottom brand row -->
+  <g transform="translate(90,470)">
+    <rect width="56" height="56" rx="16" fill="#FFFFFF"/>
+    <path d="M15 40V19.9C15 19.0716 15.6716 18.4 16.5 18.4H22.6C25.6234 18.4 28.1 20.8766 28.1 23.9C28.1 26.1734 26.7185 28.1265 24.7495 28.9482L29.5 40H24.7L20.3 29.85H19.1V40H15ZM19.1 26.85H22.3C23.4046 26.85 24.3 25.9546 24.3 24.85C24.3 23.7454 23.4046 22.85 22.3 22.85H19.1V26.85Z" fill="#2D1FA3"/>
+    <text x="72" y="24" font-family="Sora, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF">RomanT Apps</text>
+    <text x="72" y="50" font-family="Inter, sans-serif" font-weight="500" font-size="20" fill="#BBB5FF">roman-tsisyk.com</text>
+  </g>
+</svg>
